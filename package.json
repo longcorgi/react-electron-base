@@ -1,0 +1,41 @@
+{
+    "name": "react-electron-base",
+    "version": "1.0.0",
+    "description": "React & Electron Base",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron-forge start",
+        "package": "electron-forge package",
+        "make": "electron-forge make",
+        "watch": "webpack --config webpack.common.js --watch"
+    },
+    "keywords": [],
+    "author": "creator",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.24.4",
+        "@babel/preset-env": "^7.24.4",
+        "@babel/preset-react": "^7.24.1",
+        "@electron-forge/cli": "^7.4.0",
+        "@electron-forge/maker-deb": "^7.4.0",
+        "@electron-forge/maker-rpm": "^7.4.0",
+        "@electron-forge/maker-squirrel": "^7.4.0",
+        "@electron-forge/maker-zip": "^7.4.0",
+        "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+        "@electron-forge/plugin-fuses": "^7.4.0",
+        "@electron/fuses": "^1.8.0",
+        "babel-loader": "^9.1.3",
+        "css-loader": "^7.1.1",
+        "electron": "^30.0.1",
+        "sass": "^1.75.0",
+        "sass-loader": "^14.2.1",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.91.0",
+        "webpack-cli": "^5.1.4"
+    },
+    "dependencies": {
+        "electron-squirrel-startup": "^1.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
